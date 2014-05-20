@@ -1,0 +1,52 @@
+body {
+	background: url(images/background.png);
+	background-size: cover; 
+}
+
+nav ul li {
+ list-style: none; 
+}
+
+a {
+	color: inherit;
+	text-decoration: none; 
+}
+
+a:hover {
+	color: tomato;
+	font-style: italic; 
+}
+
+.headlines {
+	font-style: italic; 
+	text-align: center;
+}
+
+.profileBox {
+	border: 1px solid black; 
+	height: auto;
+	width: 25%;
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center; 
+}
+
+.navigation {
+	float: left; 
+}
+
+.allUsers {
+	border: 1px solid black;
+	height: auto;
+	width: auto;
+	float: left;
+	position: inline-block;
+}
+
+.courses {
+	text-align: center; 
+}
+
+.summaryInput {
+	text-align: center;
+}
