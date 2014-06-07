@@ -12,17 +12,18 @@
 <div class="headlines">
 <h1> Elevplattform </h1>
 </div>
+<div class="nav">
 <nav>
 	<ul>
-		<li><a href="index.php"> Framsida </a></li>
+		<li><a href="index.php"> Framsida </a></li> 
 		<li><a href="kurs.php"> Kurs </a></li> 
-		<li><a href="klass.php"> Klass </a></li> 
 		<li><a href="user.php"> Profil </a></li>
-		<li><a href="summary.php"> Summary </a></li>
+		<li><a href="summary.php"> Lägg till sammanfattning </a></li>
 	</ul>
 </nav>
+</div>
 
-	<img src="images/girls.jpg"/>
+	<img src="images/batmanlogo.png"/>
 <?php
 
 ?>

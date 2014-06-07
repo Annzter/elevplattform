@@ -1,6 +1,15 @@
 body {
-	background: url(images/background.png);
-	background-size: cover; 
+	background: #31859c; 
+}
+
+
+.nav {
+	float: left; 
+	border: 1px solid;
+	border-color: black;
+	background: gray; 
+	display: inline; 
+	width: 25%; 
 }
 
 nav ul li {
@@ -17,9 +26,11 @@ a:hover {
 	font-style: italic; 
 }
 
+
 .headlines {
-	font-style: italic; 
 	text-align: center;
+	font-family: "Agency FB";
+	color: white; 
 }
 
 .profileBox {
@@ -36,11 +47,13 @@ a:hover {
 }
 
 .allUsers {
-	border: 1px solid black;
+
 	height: auto;
 	width: auto;
-	float: left;
-	position: inline-block;
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: 8%; 
+	
 }
 
 .courses {
@@ -50,3 +63,23 @@ a:hover {
 .summaryInput {
 	text-align: center;
 }
+
+.subjects {
+	float: left; 
+	display: block;
+}
+
+.summarybox {
+	float: left;
+	display: block;
+}
+
+.text {
+	border: 1px solid black;
+	width: 50%;
+	text-align: center;
+	margin-right: 23%;
+	margin-left: auto; 
+}
+
+
