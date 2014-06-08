@@ -39,7 +39,7 @@ $host="localhost";
 <?php
 
 		echo "<ul>";
-		echo "<li><a href=\"index.php\"> All users <br/></a></li>";
+		echo "<li> Alla användare <br/></li>";
 			foreach ($pdo->query("SELECT username FROM user") as $row){
 				echo "<li><a href=\"?user_id=\">{$row['username']} <br/></a></li>";
 			}
